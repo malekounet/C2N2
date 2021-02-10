@@ -1,0 +1,148 @@
+/* generale style  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 100vw;
+
+}
+.hover-opacity:hover{
+    opacity: .8;
+}
+.spaces{ 
+    width: 90%;
+    margin: auto;
+}
+
+.container{
+    width: 100%;
+}
+h1, h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+/* generale style  */
+
+.header {
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-color:hsl(193, 100%, 96%);
+    /* height: 100px; */
+    background-repeat: no-repeat;
+    background-position:top;
+    background-attachment: fixed;
+    
+}
+
+.header__navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header__logo{
+    margin-top: 3rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: baseline;
+}
+
+.header__button{
+    background-color: #FFFFFF;
+    width: 12.5rem;
+    height: 3.5rem;
+    border-radius: 68.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 700;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.header__buttom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.8rem;
+    /* flex-wrap: nowrap; */
+}
+
+.header__text{
+    width: 40%;
+    height: 26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.header__button--pink{
+    background-color: hsl(322, 100%, 66%);
+    width: 17.5rem;
+    height: 3.5rem;
+    color: aliceblue;
+}
+
+.header__image img{
+        width: 42.5rem;
+         height: 30rem;
+}
+
+/* section main  */
+
+.main{
+    margin-top: 10rem;
+}
+
+.main__card{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2.5rem;
+    height: 22rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+}
+
+.main__card--spaces{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+.main__card--imgright{
+    flex-direction: row;
+}
+
+.main__img{
+    width: 45%;
+    height: 100%;
+}
+
+.main__img > img{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+.main__text{
+    width: 45%;
+}
+

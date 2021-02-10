@@ -1,0 +1,65 @@
+/* media query */
+@media (max-width:600px){
+    body{
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        width: 100%;
+
+    }
+    
+    .header{
+        background-image: url(../images/bg-hero-mobile.svg);
+        background-color:hsl(193, 100%, 96%);
+        /* height: 100px; */
+        background-repeat: no-repeat;
+        background-position:top;
+        background-attachment: fixed
+    }
+
+    .header__buttom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3.8rem;
+        /* flex-wrap: nowrap; */
+    }
+
+    .header__text{
+        width: 90%;
+        margin: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .header__image{
+        width: 95%;
+        margin:5% auto;
+    }
+
+    .header__image >img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .main__card--spaces{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2.5rem;
+        height: auto;
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+        border-radius: 1rem;
+    }
+
+    .main__text{
+        width: 90%;
+        text-align: center;
+    }
+}
